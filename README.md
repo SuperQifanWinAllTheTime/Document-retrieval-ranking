@@ -26,4 +26,4 @@ modified tf-idf weighting scheme w_iq = (0.5 + 0.5 tf_iq)∙idf_i
 
 # results:
 each document score has been calculate as following:
-
+<img width="640" alt="thumbnail_screen shot 2018-02-25 at 2 08 56 pm" src="https://user-images.githubusercontent.com/15969187/40942841-553a0d6c-681d-11e8-9266-9b511977e400.png">
