@@ -19,6 +19,8 @@ Use the Porter stemmer to stem the index words.
 Build an inverted index, with an entry for each word in the vocabulary.
 An example of possible index is presented below.
 ![wechat screenshot_20180604172922](https://user-images.githubusercontent.com/15969187/40942688-fee61348-681c-11e8-8500-a99dcf86a0b7.png)
+
+
 For weighting, i use the tf-idf weighting scheme (w_ij = tf_ij x idf_i). For each
 query,  system will produce a ranked list of documents, starting with the most similar
 to the query and ending with the least similar. For the query terms, i use a
